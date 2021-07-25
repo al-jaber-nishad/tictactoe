@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    
+    <title>Tic Tac Toe</title>
+</head>
+
+<body class="full">
+    <div class="container">
+
+        <!-- Section: Select Box -->
+
+        <div class="selectBox">
+            <header>Tic Tac Toe</header>
+            <div class="content">
+                <div class="title">Select which you want to be?</div>
+                <div class="option">
+                    <button class="XBtn">Player(X)</button>
+                    <button class="OBtn">Player(O)</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Section: PlayBoard -->
+
+        <div class="playBoard">
+            <div class="details">
+                <div class="players">
+                    <span class="Xturn">X's Turn</span>
+                    <span class="Oturn">O's Turn</span>
+                    <span class="slider"></span>
+                </div>
+            </div>
+
+
+            <div class="playArea">
+                <section>
+                    <span class="box1"></span>
+                    <span class="box2"></span>
+                    <span class="box3"></span>
+                </section>
+                <section>
+                    <span class="box4"></span>
+                    <span class="box5"></span>
+                    <span class="box6"></span>
+                </section>
+                <section>
+                    <span class="box7"></span>
+                    <span class="box8"></span>
+                    <span class="box9"></span>
+                </section>
+            </div>
+        </div>
+        
+        
+        <!-- Result Box -->
+
+        <div class="resultBox live">
+            
+            <div class="winText">
+                <span class="winnerName">nobody</span> Has Won the Game!
+            </div>
+            <div class="replayBtn">
+                <button class="btn btn-dark">Replay</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="myscript.js"></script>
+    
+</body>
+</html>
